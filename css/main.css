@@ -1,0 +1,16 @@
+html, body {
+    font-family: 'Asap', sans-serif;
+    background: url("../img/food.png") center;
+}
+
+.brand-logo {
+    display: flex!important;
+    align-items: center!important;
+    font-family: 'Dancing Script', cursive;
+    font-size: 250%!important;
+    text-shadow: 0 0 4px #000;
+}
+
+.logo-img {
+    margin-right: 10px;
+}

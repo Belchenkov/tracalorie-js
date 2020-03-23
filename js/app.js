@@ -195,6 +195,7 @@ const UICtrl = (function () {
             items.forEach(function (item) {
                 html += `
                     <li class="collection-item" id="item-${item.id}">
+                        <i class="fa fa-check-circle-o" style="margin-right: 10px"></i>
                         <strong>${item.name}: </strong> <em>${item.calories} Calories</em>
                         <a href="#" class="secondary-content">
                             <i class="edit-item fa fa-pencil"></i>
